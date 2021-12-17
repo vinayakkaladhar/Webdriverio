@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639735566547' stop='1639735570174'>
+    <name>Search Wikipedia Functionality</name>
+    <title>Search Wikipedia Functionality</title>
+    <test-cases>
+        <test-case start='1639735566548' status='passed' stop='1639735570171'>
+            <name>can find search results</name>
+            <title>can find search results</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Feature'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='8B3X12Y71-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

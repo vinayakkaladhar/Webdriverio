@@ -1,0 +1,63 @@
+{
+  "uid" : "741e41e76705bbbc",
+  "name" : "can find search results",
+  "fullName" : "Search Wikipedia Functionality.can find search results",
+  "historyId" : "469fd57519a6157af5c24c11e47f2efe",
+  "time" : {
+    "start" : 1639734891257,
+    "stop" : 1639734895195,
+    "duration" : 3938
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "can find search results"
+  }, {
+    "name" : "package",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "8B3X12Y71-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "741e41e76705bbbc.json",
+  "parameterValues" : [ "8B3X12Y71-9.0" ]
+}

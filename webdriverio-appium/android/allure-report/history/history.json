@@ -1,0 +1,138 @@
+{
+  "6d77f9e865abf04181d60b8fcdfa085a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e80dad6f3ad340a",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1639736917662,
+        "stop" : 1639736928866,
+        "duration" : 11204
+      }
+    } ]
+  },
+  "9a8122b249a70edb48920e12b1eb203a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ae0caf2abbc60fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639739772941,
+        "stop" : 1639739776533,
+        "duration" : 3592
+      }
+    } ]
+  },
+  "7284c8ecd45061f267802478aed23956" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49d7628c6f39c679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639740086431,
+        "stop" : 1639740090799,
+        "duration" : 4368
+      }
+    } ]
+  },
+  "dcf3c5bb1e97db2ad7d161c9ac1f270f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdf31594795bc8f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639737876154,
+        "stop" : 1639737879731,
+        "duration" : 3577
+      }
+    } ]
+  },
+  "86c338721663729f97af0b320ff56120" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b0caefa9e216973",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1639739461771,
+        "stop" : 1639739472312,
+        "duration" : 10541
+      }
+    } ]
+  },
+  "469fd57519a6157af5c24c11e47f2efe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "332c2baa8ee50493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639735566548,
+        "stop" : 1639735570171,
+        "duration" : 3623
+      }
+    } ]
+  },
+  "8623af3686b63002b330daea66104402" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ab603370a44ebf7",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1639737388498,
+        "stop" : 1639737399526,
+        "duration" : 11028
+      }
+    } ]
+  }
+}

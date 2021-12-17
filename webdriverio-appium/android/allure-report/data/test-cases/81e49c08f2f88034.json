@@ -1,0 +1,65 @@
+{
+  "uid" : "81e49c08f2f88034",
+  "name" : "can find search results",
+  "fullName" : "Search Wikipedia Functionality.can find search results",
+  "historyId" : "8623af3686b63002b330daea66104402",
+  "time" : {
+    "start" : 1639736647405,
+    "stop" : 1639736658623,
+    "duration" : 11218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms\n                    at /Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Context.<anonymous> (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/examples/run-first-test/specs/first_test.js:11:5)\n                    at async Context.executeAsync (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "can find search results"
+  }, {
+    "name" : "package",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "89BX07YP9-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81e49c08f2f88034.json",
+  "parameterValues" : [ "89BX07YP9-9.0" ]
+}

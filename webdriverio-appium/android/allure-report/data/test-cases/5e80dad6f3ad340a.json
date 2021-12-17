@@ -1,0 +1,681 @@
+{
+  "uid" : "5e80dad6f3ad340a",
+  "name" : "can find search results",
+  "fullName" : "Search Wikipedia Functionality.can find search results",
+  "historyId" : "6d77f9e865abf04181d60b8fcdfa085a",
+  "time" : {
+    "start" : 1639736917662,
+    "stop" : 1639736928866,
+    "duration" : 11204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms\n                    at /Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Context.<anonymous> (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/examples/run-first-test/specs/first_test.js:11:5)\n                    at async Context.executeAsync (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+    "statusTrace" : "Error: element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms\n                    at /Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Context.<anonymous> (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/examples/run-first-test/specs/first_test.js:11:5)\n                    at async Context.executeAsync (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736917665,
+        "stop" : 1639736918853,
+        "duration" : 1188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c182dbd8a65a466e",
+        "name" : "Request",
+        "source" : "c182dbd8a65a466e.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "b961599b9658f715",
+        "name" : "Response",
+        "source" : "b961599b9658f715.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736918860,
+        "stop" : 1639736919368,
+        "duration" : 508
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b94e16471b42839",
+        "name" : "Request",
+        "source" : "3b94e16471b42839.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "b344eb6b9c01d87b",
+        "name" : "Response",
+        "source" : "b344eb6b9c01d87b.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736919374,
+        "stop" : 1639736919496,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38c71707154f495",
+        "name" : "Request",
+        "source" : "38c71707154f495.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "ea7e004f8af7eed8",
+        "name" : "Response",
+        "source" : "ea7e004f8af7eed8.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736919863,
+        "stop" : 1639736920000,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8f1e478a81a6f44",
+        "name" : "Request",
+        "source" : "d8f1e478a81a6f44.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "aab965559e6ddac7",
+        "name" : "Response",
+        "source" : "aab965559e6ddac7.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736920361,
+        "stop" : 1639736920462,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20d8ff5cebfaed98",
+        "name" : "Request",
+        "source" : "20d8ff5cebfaed98.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "9f41d52c8b8eeec4",
+        "name" : "Response",
+        "source" : "9f41d52c8b8eeec4.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736920863,
+        "stop" : 1639736920985,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf0aab792509fcb",
+        "name" : "Request",
+        "source" : "bf0aab792509fcb.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "30fdf63c83988345",
+        "name" : "Response",
+        "source" : "30fdf63c83988345.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736921364,
+        "stop" : 1639736921444,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac28eaad402ee72e",
+        "name" : "Request",
+        "source" : "ac28eaad402ee72e.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "b4b347161675b7c9",
+        "name" : "Response",
+        "source" : "b4b347161675b7c9.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736921864,
+        "stop" : 1639736921944,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "897042057eae5dc2",
+        "name" : "Request",
+        "source" : "897042057eae5dc2.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "d844c5164ae93e1a",
+        "name" : "Response",
+        "source" : "d844c5164ae93e1a.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736922364,
+        "stop" : 1639736922469,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37846788288b9635",
+        "name" : "Request",
+        "source" : "37846788288b9635.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "176922d5d5a298e1",
+        "name" : "Response",
+        "source" : "176922d5d5a298e1.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736922864,
+        "stop" : 1639736922987,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3f32aec7585b0bf",
+        "name" : "Request",
+        "source" : "a3f32aec7585b0bf.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "c9469a76c6f66c0a",
+        "name" : "Response",
+        "source" : "c9469a76c6f66c0a.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736923365,
+        "stop" : 1639736923496,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4234c23fa13fb3f",
+        "name" : "Request",
+        "source" : "d4234c23fa13fb3f.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "f126ad35f8776463",
+        "name" : "Response",
+        "source" : "f126ad35f8776463.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736923865,
+        "stop" : 1639736923944,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33a863939ca61eee",
+        "name" : "Request",
+        "source" : "33a863939ca61eee.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "ef18f7949153bc65",
+        "name" : "Response",
+        "source" : "ef18f7949153bc65.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736924365,
+        "stop" : 1639736924467,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82b27604d4a41d27",
+        "name" : "Request",
+        "source" : "82b27604d4a41d27.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "ef81b56ce2465ac8",
+        "name" : "Response",
+        "source" : "ef81b56ce2465ac8.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736924862,
+        "stop" : 1639736924966,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92cbfef6e4424feb",
+        "name" : "Request",
+        "source" : "92cbfef6e4424feb.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "96b32bc73af6d2f3",
+        "name" : "Response",
+        "source" : "96b32bc73af6d2f3.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736925362,
+        "stop" : 1639736925462,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7380645806b88596",
+        "name" : "Request",
+        "source" : "7380645806b88596.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "32e9bf53f592ad96",
+        "name" : "Response",
+        "source" : "32e9bf53f592ad96.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736925861,
+        "stop" : 1639736925957,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66d9eeb4607981d1",
+        "name" : "Request",
+        "source" : "66d9eeb4607981d1.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "26cccd69d3b71665",
+        "name" : "Response",
+        "source" : "26cccd69d3b71665.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736926365,
+        "stop" : 1639736926445,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "650f4c23f0c9ea1b",
+        "name" : "Request",
+        "source" : "650f4c23f0c9ea1b.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "528752a1ce613967",
+        "name" : "Response",
+        "source" : "528752a1ce613967.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736926865,
+        "stop" : 1639736926957,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2bd5ae3b5b5d1b6a",
+        "name" : "Request",
+        "source" : "2bd5ae3b5b5d1b6a.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "1bacd76c3e662dc9",
+        "name" : "Response",
+        "source" : "1bacd76c3e662dc9.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736927361,
+        "stop" : 1639736927442,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c033dc9c5ec688a",
+        "name" : "Request",
+        "source" : "5c033dc9c5ec688a.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "7461a488d3f60ddd",
+        "name" : "Response",
+        "source" : "7461a488d3f60ddd.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736927863,
+        "stop" : 1639736927964,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6830a45c45b5cf50",
+        "name" : "Request",
+        "source" : "6830a45c45b5cf50.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "d40660e2ba9a03b5",
+        "name" : "Response",
+        "source" : "d40660e2ba9a03b5.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736928362,
+        "stop" : 1639736928472,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "455cad64d5e0d1b",
+        "name" : "Request",
+        "source" : "455cad64d5e0d1b.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "d8aae86a9b1a03fc",
+        "name" : "Response",
+        "source" : "d8aae86a9b1a03fc.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639736928862,
+        "stop" : 1639736928866,
+        "duration" : 4
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms\n                    at /Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/webdriverio/build/middlewares.js:21:24)\n                    at async Element.wrapCommandFn (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:74:23)\n                    at async Context.<anonymous> (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/examples/run-first-test/specs/first_test.js:11:5)\n                    at async Context.executeAsync (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (/Users/vinayakkaladhar/Downloads/webdriverio-appium-app-browserstack-master/android/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22f42608a8a60ba9",
+        "name" : "Request",
+        "source" : "22f42608a8a60ba9.json",
+        "type" : "application/json",
+        "size" : 121
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 43,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "can find search results"
+  }, {
+    "name" : "package",
+    "value" : "Search Wikipedia Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "88PX01UWX-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f16e0f7a671b13b7",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1639736385169,
+        "stop" : 1639736396451,
+        "duration" : 11282
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5e80dad6f3ad340a.json",
+  "parameterValues" : [ "88PX01UWX-9.0" ]
+}

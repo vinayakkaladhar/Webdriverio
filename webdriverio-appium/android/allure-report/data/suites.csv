@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 17 16:14:36 IST 2021","Fri Dec 17 16:14:39 IST 2021","3577","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""
+"passed","Fri Dec 17 16:46:12 IST 2021","Fri Dec 17 16:46:16 IST 2021","3592","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""
+"passed","Fri Dec 17 16:51:26 IST 2021","Fri Dec 17 16:51:30 IST 2021","4368","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""
+"broken","Fri Dec 17 16:06:28 IST 2021","Fri Dec 17 16:06:39 IST 2021","11028","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""
+"broken","Fri Dec 17 15:58:37 IST 2021","Fri Dec 17 15:58:48 IST 2021","11204","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""
+"broken","Fri Dec 17 16:41:01 IST 2021","Fri Dec 17 16:41:12 IST 2021","10541","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""
+"passed","Fri Dec 17 15:36:06 IST 2021","Fri Dec 17 15:36:10 IST 2021","3623","","Search Wikipedia Functionality","","Search Wikipedia Functionality","can find search results","can find search results",""

@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"android=new UiSelector().text(\"Allow\").className(\"android.widget.Button\")\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "can find search results",
+        "uid" : "5e80dad6f3ad340a",
+        "parentUid" : "7c9c1e7006ffcfcfcf08b9d37e903428",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639736917662,
+          "stop" : 1639736928866,
+          "duration" : 11204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "88PX01UWX-9.0" ]
+      }, {
+        "name" : "can find search results",
+        "uid" : "6ab603370a44ebf7",
+        "parentUid" : "7c9c1e7006ffcfcfcf08b9d37e903428",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639737388498,
+          "stop" : 1639737399526,
+          "duration" : 11028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "89BX07YP9-9.0" ]
+      }, {
+        "name" : "can find search results",
+        "uid" : "9b0caefa9e216973",
+        "parentUid" : "7c9c1e7006ffcfcfcf08b9d37e903428",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639739461771,
+          "stop" : 1639739472312,
+          "duration" : 10541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "8BQX1E0W3-9.0" ]
+      } ],
+      "uid" : "7c9c1e7006ffcfcfcf08b9d37e903428"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
