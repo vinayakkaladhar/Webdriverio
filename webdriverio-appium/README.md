@@ -1,13 +1,3 @@
-# webdriverio-appium-app-browserstack
-This repository demonstrates how to run Appium tests using [WebdriverIO](http://webdriver.io/) on BrowserStack App Automate.
-
-<div align="center">
-<img src = "https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" > <br>
-<img src = "https://webdriver.io/img/webdriverio.png"  height="140px">
-</div>
-
-Code samples to get started with Appium tests for your Native App using WebdriverIO.
-
 ## Setup
 
 ### Requirements
@@ -56,4 +46,3 @@ Getting Started with Appium tests using WebdriverIO on BrowserStack couldn't be 
 ## Getting Help
 
 If you are running into any issues or have any queries, please check [Browserstack Support page](https://www.browserstack.com/support/app-automate) or [get in touch with us](https://www.browserstack.com/contact?ref=help).
-
